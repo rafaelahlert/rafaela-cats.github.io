@@ -6,48 +6,24 @@ https://rafaela-cats.github.io
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>Fatos sobre gatos</title>
+    <title>Imagens de Gatos</title>
 </head>
 <body>
-    <header class="menu-principal">
-        <main>
-            <div class="header-1">
-                <div class="logo">
-                    <i class="fas fa-paw"></i>
-                </div>
+    <header class="menu-principal"></header>
 
-                <div class="redes-sociais">
-                    <ul>
-                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
-                        <li><a href=""> <i class="fab fa-instagram"></i></a></li>
-                        <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+    <h1>Imagens de Gatos</h1>
 
-                    </ul>
-                </div>
-            </div>
-        </main>
-    </header>
+    
+     <h3>clique no pequeno traço e conheça mais uma fofura: <button value="Refresh Page" onClick="history.go(0)"></button></h3>
+    
 
-    <main class="col-100 menu-urls">
-       <div class="header-2">
+    <div id="image"></div>
+    <div id="id"></div>
+    <div id="url"></div>
 
-           <div class="menu">
-                <ul>
-                    <li><a href="">Início</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Páginas</a></li>
-                    <li><a href="">Blogs</a></li>    
-                </ul>
-           </div>
+ 
+    
 
-           <div class="busca">
-                <input placeholder="Pesquisa" type="text">
-           </div>
-       </div> 
-    </main>
-
-    <div>
-        <a href="https://cat-fact.herokuapp.com">Acesse fatos diários sobre gatos</a>
-    </div>
+      <script src="assets/js/script.js"></script>
     </body>
 </html>
